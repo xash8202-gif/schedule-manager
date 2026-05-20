@@ -1,0 +1,39 @@
+﻿@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background: #f8fafc;
+  color: #0f172a;
+}
+
+.input {
+  width: 100%;
+  border: 1px solid #cbd5e1;
+  border-radius: 0.5rem;
+  padding: 0.625rem 0.75rem;
+  background: #fff;
+}
+
+.btn {
+  border-radius: 0.5rem;
+  padding: 0.625rem 0.9rem;
+  font-weight: 700;
+  background: #2563eb;
+  color: #fff;
+}
+
+.btn-secondary {
+  border-radius: 0.5rem;
+  padding: 0.625rem 0.9rem;
+  font-weight: 700;
+  background: #e2e8f0;
+  color: #0f172a;
+}
+
+.panel {
+  border: 1px solid #e2e8f0;
+  border-radius: 0.5rem;
+  background: #fff;
+  padding: 1rem;
+}
